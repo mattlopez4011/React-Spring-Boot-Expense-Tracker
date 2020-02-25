@@ -5,6 +5,7 @@ import './index.css';
 // import Category from './Category';
 import Home from './Home';
 import * as serviceWorker from './serviceWorker';
+import 'bootstrap/dist/css/bootstrap.css';
 
 // ReactDOM.render(<App />, document.getElementById('root'));
 // ReactDOM.render(<Category />, document.getElementById('root'));
