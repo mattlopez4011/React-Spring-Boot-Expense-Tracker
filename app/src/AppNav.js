@@ -20,13 +20,13 @@ class AppNav  extends Component {
     render(){
         return (
             <div>
-                <Navbar color="light" light expand="md">
+                <Navbar color="dark" dark expand="md">
                     <NavbarBrand href="/">Expense Tracker Application</NavbarBrand>
                     {/*<NavbarToggler onClick={toggle} />*/}
                     {/*<Collapse isOpen={isOpen} navbar>*/}
                         <Nav className="mr-auto" navbar>
                             <NavItem>
-                                <NavLink href="/home/">Home</NavLink>
+                                <NavLink href="/">Home</NavLink>
                             </NavItem>
                             <NavItem>
                                 <NavLink href="/categories">Categories</NavLink>
